@@ -1,0 +1,9 @@
+_build
+deps
+.git
+.gitignore
+.tool-versions
+README.md
+mix.lock
+test
+priv/static

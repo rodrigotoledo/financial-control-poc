@@ -1,0 +1,21 @@
+ # Back‑end (RailsFullStack)                                                                                                      
+  /app/db/*.sqlite3          # Rails database file
+  /app/log/**/*.log           # Application logs                                                                                   
+  /.bundle/                  # Bundler dependencies cache                                                                          
+  /.f6/                      # Fastly cache files (if used)                                                                        
+  /cache/*                   # Generic cached files                                                                                
+  /tmp/*                                                                                                                           
+  /tmp/**                    # Any temporary directories                                                                           
+  /vendor/*                                                                                                                        
+                                                                                                                                   
+  # Front‑end (Phoenix)                                                                                                            
+  /node_modules/**            # npm/Yarn package caches                                                                            
+  **/*.json*                 # Diffs of any JSON assets that are generated or modified by the build step                           
+  **/*.js*                                                                                                                         
+  **/*.jsx*                                                                                                                        
+  **/*.ts*                                                                                                                         
+  **/*.tsx*                                                                                                                        
+  **/node_modules/**/*.bak    # Optional backup files from npm scripts                                                             
+                                                                                                                                   
+  # Any project‑local hidden files you don’t want to track (e.g. .env)                                                             
+  .env* 
